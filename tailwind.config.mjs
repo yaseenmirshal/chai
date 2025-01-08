@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 export default {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -10,6 +9,7 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        customYellow: "#F9A500", // Add custom yellow here
       },
     },
   },
