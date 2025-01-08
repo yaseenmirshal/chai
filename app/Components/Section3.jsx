@@ -8,15 +8,11 @@ import pizza from "../assets/pizzaa.png";
 function Section3() {
   return (
     <div className="relative flex flex-col md:flex-row items-center justify-between bg-black p-10 overflow-hidden">
-      
-     
       {/* Pizza Image */}
       <div className="absolute left-0 top-1/2 transform -translate-y-1/2 max-w-[300px] hidden sm:block opacity-80">
         <Image src={pizza} alt="Pizza" />
       </div>
 
-
-      
       {/* Deal Content */}
       <div className="relative z-10 text-left md:ml-60 text-white">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">

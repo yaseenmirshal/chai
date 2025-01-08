@@ -22,8 +22,6 @@ const Section2 = () => {
 
   return (
     <div className="text-center bg-black text-orange-500 py-12 px-4">
-      
-
       <h2 className="text-3xl font-bold mb-8">ARE YOU HUNGRY?</h2>
       <div className="flex flex-wrap justify-center gap-6">
         {foodItems.map((item, index) => (
