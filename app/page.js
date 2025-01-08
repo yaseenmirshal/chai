@@ -24,8 +24,8 @@ export default function Home() {
    <Menusection/>
    <Svg3/>
    <Section4/>
-   {/* <Feedback/> */}
-   {/* <Section5/> */}
+   <Feedback/>
+   <Section5/>
    <Footer/>
    </>
   );
