@@ -26,7 +26,7 @@ function HeroSection() {
         <h1
             className="text-[37px] md:text-[96px] font-extrabold leading-tight text-transparent bg-clip-text  mt-4"
             style={{
-            WebkitTextStroke: "1.5px black", // Thin stroke with the desired color
+            WebkitTextStroke: "2px black", // Thin stroke with the desired color
          }}
 >
   DELICIOUS FOOD <br />
