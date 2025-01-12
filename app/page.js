@@ -17,15 +17,15 @@ export default function Home() {
    <>
   <Navbar/>
    <Landing/>
-   {/* <Svg1/> */}
+   <Svg1/>
    <Section3/>
    <Section2/>
    <Svg2/>
-   <Menusection/>
+   {/* <Menusection/> */}
    <Svg3/>
    {/* <Section4/> */}
-   <Feedback/>
-   <Section5/>
+   {/* <Feedback/> */}
+   {/* <Section5/> */}
    <Footer/>
    </>
   );
