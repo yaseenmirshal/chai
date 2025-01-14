@@ -6,7 +6,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 // Importing images
-import food1 from "../assets/mandihd.png";
+import food1 from "../assets/prouns.jpg"; 
+import food0 from "../assets/mandihd.png";
 import food2 from "../assets/shawarma.png";
 import food3 from "../assets/burgerhd.png";
 import food4 from "../assets/frenchhd.png";
@@ -43,7 +44,7 @@ const Gallery = () => {
         {/* Image Section */}
         <div className="mt-8 lg:mt-0 lg:max-w-[50%]" data-aos="fade-right">
           <Image
-            src={food1}
+            src={food0}
             alt="Featured Dish"
             className="rounded-lg shadow-lg"
             width={500}
