@@ -1,6 +1,7 @@
 'use client';
 import React, { useState, useEffect } from "react";
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
+import logo2 from '../assets/logo.jpg';
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -40,7 +41,7 @@ function Header() {
         {/* Logo */}
         <div className="flex-shrink-0">
           <img
-            src="http://localhost:3001/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo2.6254de32.png&w=256&q=75"
+            src={logo2}
             alt="Chai Kadai Logo"
             className="h-12"
           />

@@ -114,7 +114,7 @@ const FeedbackSection = () => {
         {/* Right Section */}
         <div
           className="relative w-full md:w-1/3 flex justify-center"
-          data-aos="fade-left"
+          data-aos="fade-right"
           data-aos-duration="1000"
         >
           <Image
