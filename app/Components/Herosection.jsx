@@ -8,14 +8,14 @@ function HeroSection() {
       <img
         src="https://chaikadai.vercel.app/static/media/juice.70e988510ab9e3739964.png"
         alt="Juice"
-        className="absolute mt-52 left-48 md:left-[1070px] top-1/2 transform -translate-y-1/2 w-48 md:w-64 lg:w-96 object-cover"
+        className="absolute mt-52 left-48 md:left-[1070px] top-1/2 transform -translate-y-1/2 w-48 md:w-64 lg:w-[400px] object-cover"
       />
 
       {/* Right Image */}
       <img
-        src="https://s3-alpha-sig.figma.com/img/181c/be93/2a3fccb69be4f98326e8f1f1174870ad?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BbLJpQE6Gd9Hn5pLiFAkh5jweZn4XRGDnOKWKIl94qNcmbnLhQ6lUaOH8P4QAF-TgkL6mQgQRPBJjUQHleEgIiKN6IeIBGS~aMTBk-V7Q5TnacI-J9KyBxbgsWXnk62WxuSw41Qh2o5Ld-A4tmIhgpx2i-Jq7NPyZQ4vsbDM4HIp1fFp~2PScL~uycigUlfeKUZglwS69pUuBVWOhjcQU8r-Y1EMNggAA8EEfy4FKORNGqZCAIVxC2SfKhm0eoscILsBSP41rI0efuhGQYcp6vnXyj58DGvN8a1HpqEJ~EeG6FvivFDjevjh3mp0vV9sAuwyDLC2nvy6wUuK6Or0yw__"
+        src="/hdbroast.png"
         alt="Chicken"
-        className="absolute mt-56 md:right-[1000px]  right-44 top-1/2 transform -translate-y-1/2 w-48 md:w-64 lg:w-96 object-cover"
+        className="absolute mt-56 md:right-[870px]  right-44 top-1/2 transform -translate-y-1/2 w-48 md:w-64 lg:w-[600px] object-cover"
       />
 
       {/* Hero Content */}
