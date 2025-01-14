@@ -6,15 +6,17 @@ import "aos/dist/aos.css";
 
 function ProductMenu() {
   const items = [
-    { id: 1, image: "/chicken-steak-removebg-preview.png", name: "Steak", price: "$50", discount: "$25", rating: "5k" },
-    { id: 2, image: "/burger.jpg", name: "Burger", price: "$50", discount: "$25", rating: "5k" },
-    { id: 3, image: "/piza1-removebg-preview.png", name: "Pizza", price: "$50", rating: "5k" },
-    { id: 4, image: "/black-burger.jpg", name: "Black Burger", price: "$50", discount: "$25", rating: "5k" },
-    { id: 5, image: "/burger.jpg", name: "Special Burger", price: "$50", discount: "$25", rating: "5k" },
-    { id: 6, image: "/club-burger.png", name: "Pasta", price: "$50", discount: "$25", rating: "5k" },
-    { id: 7, image: "/shaway.png", name: "Combo Meal", price: "$50", discount: "$25", rating: "5k" },
-    { id: 8, image: "/thai_spicy_salad-removebg-preview.png", name: "Roast Chicken", price: "$50", discount: "$25", rating: "5k" },
+    { id: 1, image: require ("../assets/chicken-steak-removebg-preview.png"), name: "Steak", price: "$50", discount: "$25", rating: "5k" },
+    { id: 2, image: require ("../assets/burger.jpg"), name: "Burger", price: "$50", discount: "$25", rating: "5k" },
+    { id: 3, image: require ("../assets/piza1-removebg-preview.png"), name: "Pizza", price: "$50", rating: "5k" },
+    { id: 4, image: require ("../assets/black-burger.jpg"), name: "Black Burger", price: "$50", discount: "$25", rating: "5k" },
+    { id: 5, image: require ("../assets/burger.jpg"), name: "Special Burger", price: "$50", discount: "$25", rating: "5k" },
+    { id: 6, image: require ("../assets/clubburger.png"), name: "Pasta", price: "$50", discount: "$25", rating: "5k" },
+    { id: 7, image: require ("../assets/shaway.png"), name: "Combo Meal", price: "$50", discount: "$25", rating: "5k" },
+    { id: 8, image: require ("../assets/thai_spicy_salad-removebg-preview.png"), name: "Roast Chicken", price: "$50", discount: "$25", rating: "5k" },
   ];
+  
+  
 
   useEffect(() => {
     AOS.init({ duration: 1000, once: true }); // Initialize AOS animations
@@ -43,7 +45,7 @@ function ProductMenu() {
         {items.map((item) => (
           <div
             key={item.id}
-            className="bg-gray-800 rounded-lg p-4 text-center transition-transform transform hover:-translate-y-2"
+            className="bg-[#1e1e1e] rounded-lg p-4 text-center transition-transform transform hover:-translate-y-2"
             data-aos="zoom-in"
           >
             <Image

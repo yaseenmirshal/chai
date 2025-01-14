@@ -18,12 +18,12 @@ const Footer = () => {
         <Image
           src={pizza}
           alt="Pizza"
-          className="absolute top-6 left-6 w-[200px] sm:w-[300px]"
+          className="absolute top-6 left-6 w-[100px] sm:w-[200px]"
         />
         <Image
           src={tomato}
           alt="Tomato"
-          className="absolute top-24 right-24 w-[100px] sm:w-[150px]"
+          className="absolute top-10 md:top-24 right-24 w-[100px] sm:w-[150px]"
         />
         <Image
           src={chilli}
@@ -33,7 +33,7 @@ const Footer = () => {
       </div>
 
       {/* Newsletter */}
-      <div className="text-center py-8">
+      <div className="text-center py-8 mt-32  md:mt-0">
         <h2 className="text-2xl font-bold mb-4">Join Our Newsletter</h2>
         <p className="mb-6">Subscribe, follow our newsletter to get more updates</p>
         <div className="flex justify-center items-center space-x-4">

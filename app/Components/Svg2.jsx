@@ -14,7 +14,7 @@ const Svg2 = () => {
 
   return (
     <div
-      data-aos="fade-up"
+     
       className="bg-[#F9A500] overflow-hidden"
     >
       <svg

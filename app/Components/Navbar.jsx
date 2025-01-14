@@ -1,5 +1,6 @@
 'use client';
 import React, { useState, useEffect } from "react";
+import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -39,26 +40,29 @@ function Header() {
         {/* Logo */}
         <div className="flex-shrink-0">
           <img
-            src="/assets/chailogo.jpg"
+            src="http://localhost:3001/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo2.6254de32.png&w=256&q=75"
             alt="Chai Kadai Logo"
             className="h-12"
           />
         </div>
 
-        {/* Hamburger Menu Button (Mobile) */}
+        {/* Hamburger Menu Button (Mobile) */}  
+       
         <div className="sm:hidden">
-          <button
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="text-white focus:outline-none"
-          >
-            <i className="fa fa-bars text-2xl"></i>
-          </button>
-        </div>
+      <button
+        onClick={() => setIsMenuOpen(!isMenuOpen)}
+        className="text-white p-2 rounded-full shadow-md focus:outline-none"
+      >
+        {isMenuOpen ? (
+          <AiOutlineClose className="h-6 w-6 text-white" />
+        ) : (
+          <AiOutlineMenu className="h-6 w-6 text-white" />
+        )}
+      </button>
+    </div>
 
         {/* Navigation Menu (Desktop) */}
-        <nav
-          className={`hidden sm:flex gap-8 w-full sm:w-auto`}
-        >
+        <nav className="hidden sm:flex gap-8 w-full sm:w-auto">
           <a
             href="#home"
             className="text-white text-sm font-medium hover:text-orange-400 transition"
@@ -111,7 +115,7 @@ function Header() {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="sm:hidden absolute top-full left-0 w-full bg-black text-white p-5 rounded-lg">
+        <div className="sm:hidden absolute top-full left-0 w-full bg-white text-black p-5 rounded-lg shadow-lg">
           <nav className="flex flex-col gap-4">
             <a
               href="#home"

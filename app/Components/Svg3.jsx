@@ -15,7 +15,7 @@ const Svg3 = () => {
   return (
     <div
      
-      className="bg-black mt-[-55px] overflow-hidden"
+      className="bg-black mt-[-18px] md:mt-[-150px] overflow-hidden"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"

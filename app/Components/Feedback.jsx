@@ -1,9 +1,18 @@
-'use client'
-import React from "react";
+'use client';
+import React, { useEffect } from "react";
 import Image from "next/image";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
 import AOS from "aos";
+import "aos/dist/aos.css";
+
+// Import images
+import Customer from "../assets/img_testi_five_left_png.png";
+import OrangeDecor from "../assets/orange-decor.png";
+import CustomerDecor from "../assets/costomer-decor.png";
+import Profile1 from "../assets/girl1.jpeg";
+import Profile2 from "../assets/girl2.jpeg";
+import Profile3 from "../assets/girl3.jpeg";
+import Juice from "../assets/img_testi_five_right.png";
+import StrawberryDecor from "../assets/strawberryy.png";
 
 const FeedbackSection = () => {
   useEffect(() => {
@@ -33,7 +42,7 @@ const FeedbackSection = () => {
           data-aos-duration="1000"
         >
           <Image
-            src="/img_testi_five_left_png.png"
+            src={Customer}
             alt="Customer"
             width={400}
             height={400}
@@ -41,7 +50,7 @@ const FeedbackSection = () => {
           />
           <div className="absolute bottom-0 left-10 w-16 h-16">
             <Image
-              src="/orange-decor.png"
+              src={OrangeDecor}
               alt="Orange Decor"
               width={64}
               height={64}
@@ -49,7 +58,7 @@ const FeedbackSection = () => {
           </div>
           <div className="absolute top-0 left-10 w-24 h-24">
             <Image
-              src="/costomer-decor.png"
+              src={CustomerDecor}
               alt="Customer Decor"
               width={96}
               height={96}
@@ -65,24 +74,24 @@ const FeedbackSection = () => {
         >
           <div className="flex justify-center space-x-4 mb-6">
             <Image
-              src="/girl1.jpeg"
+              src={Profile1}
               alt="Profile 1"
-              width={40}
-              height={40}
+              width={60}
+              height={60}
               className="rounded-full"
             />
             <Image
-              src="/girl2.jpeg"
+              src={Profile2}
               alt="Profile 2"
-              width={40}
-              height={40}
+              width={60}
+              height={60}
               className="rounded-full"
             />
             <Image
-              src="/girl3.jpeg"
+              src={Profile3}
               alt="Profile 3"
-              width={40}
-              height={40}
+              width={60}
+              height={60}
               className="rounded-full"
             />
           </div>
@@ -109,7 +118,7 @@ const FeedbackSection = () => {
           data-aos-duration="1000"
         >
           <Image
-            src="/img_testi_five_right_png.png"
+            src={Juice}
             alt="Juice"
             width={400}
             height={400}
@@ -117,7 +126,7 @@ const FeedbackSection = () => {
           />
           <div className="absolute top-0 right-0 w-16 h-16">
             <Image
-              src="/strawberryy.png"
+              src={StrawberryDecor}
               alt="Strawberry Decor"
               width={64}
               height={64}

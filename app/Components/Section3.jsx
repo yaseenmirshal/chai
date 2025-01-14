@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import chickenSteak from "../assets/chicken-steak-removebg-preview.png";
-import chilly from "../assets/red chilly.png";
+import chilly from "../assets/redchilly.png";
 import tomato from "../assets/tomaato.png";
 import pizza from "../assets/pizzaa.png";
 

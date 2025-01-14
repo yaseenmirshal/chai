@@ -31,7 +31,7 @@ const Section6 = () => {
       </div>
 
       {/* Right Section */}
-      <div className="relative flex justify-center items-center w-full lg:w-1/2" data-aos="fade-left">
+      <div className="relative flex justify-center items-center w-full lg:w-1/2" data-aos="fade-right">
         <Image
           src={yellowbckground}
           alt="Quality Badge"
